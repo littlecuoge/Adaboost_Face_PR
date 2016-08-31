@@ -1,1 +1,2 @@
 # Adaboost_Face_PR
+利用GPU核心并行提取图像的haar特征，结合GPU训练的众多弱分类器，通过adaboost变为强分类器进行人脸识别，算法与opencv中的人脸识别相同，将训练方式优化为并行方式。
